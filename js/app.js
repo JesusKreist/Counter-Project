@@ -9,7 +9,7 @@ const increaseCount = () => {
   if (state < 0) {
     total.style.color = "red";
   } else {
-    total.style.color = "black";
+    total.style.color = "green";
   };
   total.innerHTML = state;  
 };
